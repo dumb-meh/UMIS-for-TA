@@ -1,0 +1,12 @@
+Header and Nav files are- header.php (when not signed in) ,userheader.php (navigation file for non admin), 
+                           adminheader.php(naviagton file for admin)
+
+Common files used both by admin and non-admin (navigation is shown based on role)- profile.php,SpecialPost.php,ShowSpecialPost.php
+
+
+SQL file dowloaded from phpmyadmin is saved in sql folder (cse479)
+
+Also have invidual sql to create each table
+
+                                             
+
