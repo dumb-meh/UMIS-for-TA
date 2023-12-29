@@ -101,7 +101,6 @@ if (session_status() == PHP_SESSION_NONE) {
     <a href="talist.php">TA List</a>
     <a href="adminlist.php">Admin List</a>
     <a href="createuser.php">Create User</a>
-    <a href="personalpost.php">Personal post</a>
     <a href="SpecialPost.php">Posts</a>
   </div>
 
