@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+header{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background-color: rgba(0, 0, 0, 0.27);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+.logo{
+  font-size: 2em;
+  color:rgb(255, 255, 255);
+  user-select: none;
+}
+.navigation a{
+  position: relative;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.navigation a::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+.navigation a:hover::after{
+  transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup{
+  width: 130px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: .5s;
+}
+.navigation .btnLogin-popup:hover{
+  background: #fff;
+  color:black;
+  font-weight: 800;
+}
+.navigation .btnSignUp-popup{
+  width: 130px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  margin-left: 20px;
+  transition: .5s;
+
+}
+.navigation .btnSignUp-popup:hover{
+  background: #fff;
+  color:black;
+  font-weight: 800;
+}

@@ -1,0 +1,67 @@
+.Sec-newsletter{
+    align-items: center;
+    text-align: center;
+    background-color:rgb(31, 31, 31);
+    padding: 100px 50px;
+}
+.newsletter h4{
+    color: white;
+    padding: 20px;
+}
+
+.newsletter input[type="text"]{
+    font-size: 16px;
+    color: #fff;
+    margin: 0px 5px;
+    padding: 5px 20px;
+    background-color:rgba(0, 0, 0, 0.438);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+.newsletter input[type="email"]{
+    font-size: 16px;
+    color: #fff;
+    margin: 0px 10px;
+    padding: 5px 20px;
+    background-color:rgba(0, 0, 0, 0.438);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+.newsletter input[type="submit"]{
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 20px;
+    background: transparent;
+    border-radius: 20px;
+}
+/*footer*/
+.sec-footer{
+    background-color:rgb(21, 21, 21) ;
+}
+.footer-row{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-copyright{
+    width: 50%;
+    color: #444444;
+}
+.footer-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: black;
+    background: #444444;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.footer-icons .fa-brands:hover{
+    color: rgb(234, 67, 53);
+}
